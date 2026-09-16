@@ -1,0 +1,55 @@
+.insert-animal-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.insert-animal-container h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.animal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.animal-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.animal-form input[type="text"],
+.animal-form textarea,
+.animal-form input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.animal-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.animal-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.animal-form button:hover {
+    background-color: #388e3c;
+}

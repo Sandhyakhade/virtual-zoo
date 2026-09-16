@@ -1,0 +1,28 @@
+.add-quiz-container {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #ffeeba;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.quiz-input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ff7f50;
+}
+
+.submit-button {
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #ff7f50;
+}
